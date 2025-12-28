@@ -26,7 +26,7 @@ All below are instructions on how to compile and run random mode and test file m
 ```
 Files that can be use:
 
-	Duplicate
+		Duplicate
         Flush
         FourOfAKind
         FullHouse
