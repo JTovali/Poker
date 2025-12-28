@@ -14,12 +14,7 @@ It follows an object-oriented design and has a clean evaluation logic and how to
 	- C#
 	- C++
 	- Python
-	- Fortran
 	- Julia
-	- Go
-	- Perl
-	- Lisp 
-
 ```
          
 ## Note:
@@ -41,14 +36,12 @@ Files that can be use:
         StraightFlush
         ThreeOfAKind
         TwoPair
-	astraight   
-	fourofakind
+	    astraight   
+		fourofakind
 ```
 ##
 ## How to Compile and Run PokerHandAnalyzer
 ##
-
-
 
 ## How to compile in Java:
 ```
@@ -63,7 +56,6 @@ Test-file: java PokerHandAnalyzer /home/PathToHandsetFile
 
 ```
 
- 
 ## How to compile in C#:
 
 ```
@@ -77,7 +69,6 @@ Random: mono PokerHandAnalyzer.exe
 Test-file: mono PokerHandAnalyzer.exe /home/PathToHandsetFile
 ```
 
-
 ## How to compile in Python:
 ``` 
 python3 PokerHandAnalyzer.py
@@ -88,8 +79,6 @@ Random: python3 PokerHandAnalyzer.py
 
 Test-file: python3 PokerHandAnalyzer.py /home/PathToHandsetFile
 ```
-
-
 
 ## How to compile in C++:
 ```
@@ -102,52 +91,12 @@ Random: ./a.out
 Test-file: ./a.out /home/PathToHandsetFile
 ```
 
-
-## How to compile in Fortran:
-```
-gfortran CardModule.f90 DeckModule.f90 AnalyzerModule.f90 PokerAnalyzer.f90
-```
-
-## Run random and test-file mode:
-```
-Random: ./a.out
-
-Test-file: ./a.out /home/PathToHandsetFile
-```
-
 ## How to run in Julia:
 ```
 Random: julia PokerAnalyzer.jl
 
 Test-file: julia PokerAnalyzer.jl /home/pathToHandsetFile
 ```
-
-## How to compile and run in Go:
-```
-Random: go run PokerAnalyzer.go Deck.go Card.go
-
-Test-file: go run PokerAnalyzer.go Deck.go Card.go /home/pathToHandsetFile
-
-```
-## How to compile and run in Perl:
-
-```
-Random: perl PokerAnalyzer.pl
-
-Test-file: perl PokerAnalyzer.pl /home/pathToHandsetFile
-
-```
-
-# How to compile and run in Lisp:
-
-```
-Random: sbcl --script PokerAnalyzer.lisp
-
-Test-file: sbcl --script PokerAnalyzer.lisp /home/pathToHandsetFile
-
-```
-
-
 [About Project](#About Six-Card Stud Poker Hand Analyzer:)
 
 ## Authors and acknowledgment
