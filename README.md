@@ -101,7 +101,7 @@ Test-file: julia PokerAnalyzer.jl /home/pathToHandsetFile
 
 ## Authors and acknowledgment
 Dr. Pounds
-Jaime Tovali
+, Jaime Tovali
 ## License
 No license has been provided for this project
 
